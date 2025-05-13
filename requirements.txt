@@ -3,3 +3,6 @@ uvicorn
 python-dotenv
 groq
 python-multipart
+requests
+torch
+openai-whisper
