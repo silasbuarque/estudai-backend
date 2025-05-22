@@ -17,4 +17,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . .
 
 # Define o comando padrão ao iniciar o container
-CMD ["uvicorn", "main:app", "--reload", "--host=0.0.0.0"]
+CMD ["uvicorn", "main:app", "--reload"]
